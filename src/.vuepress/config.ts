@@ -3,18 +3,20 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
+  // Use to deploy with github Pages
   base: "/personal-website/",
+  // base: "/",
 
   locales: {
     "/": {
       lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
+      title: "Yichen's Blog",
+      description: "A blog demo for Yichen Xie.",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "谢一辰的Blog",
+      description: "谢一辰会在这里灌水",
     },
   },
 
